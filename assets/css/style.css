@@ -10,10 +10,23 @@
     box-sizing: border-box;
 }
 
+/* General styles */
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* Generic project styles */
+    color: #00004d;
+    font-family: 'Lato', sans-serif;
+}
 
-
-
-
+/* Main content */
+main {
+    flex: 1 0 auto;
+    margin-top: 47px;
+    display: flex;
+    flex-direction: column;
+}
 
 /* Footer */
 #social-networks {
