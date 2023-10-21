@@ -4,4 +4,24 @@ Aether Clan osrs is a website that is aimed at people who play the online MMORPG
 
 ## Features
 
-This site will be a 3 page site with a home, events and signup page. The home page will act as an introdution to the clan. It will include graphics related to the clan and information about what the clan can provide to the user, and introduce clan events as a way to guide the user to the 'events' page. The events page will include information about past/upcoming events. This is a way to show the user what the clan has to offer, and help them make a decision on whether they would like to join. The signup page will then provide the user a way to sign up to join the clan.
+### <strong>Navigation bar</strong>
+
+<ul>
+<li>
+The navigation bar will be featured on all three pages, it will be fully responsive and incude home link in the logo, Home page, Events page and a Signup page
+</li>
+<li>
+The nav section will allow the user to navigate to any page on the site, no matter what page your currently on
+</li>
+</ul>
+
+### <strong>Footer</strong>
+
+<ul>
+<li>
+The footer will include Social media sites relevant to Aether clan. The link will open in a new tab to make navigating back to the site easier for the user
+</li>
+<li>
+The footer is valuable to the user as it provides ways to gain more information about the clan, also providing a way to join the clans social servers
+</li>
+</ul>
