@@ -18,10 +18,10 @@
 /* Footer */
 #social-networks {
     background-color: #00004d;
-    text-align: left;
+    text-align: center;
     padding: 20px 0;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     list-style-type: none;
 }
 
