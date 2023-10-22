@@ -101,3 +101,24 @@ main {
     padding: 5%;
     color: #ffffff;
 }
+
+
+
+/* Media query: tablets and larger (768px and up) */
+@media screen and (min-width:768px) {
+    nav {
+            display: block;
+            position: relative;
+            box-shadow: none;
+            width: fit-content;
+            padding-right: 1rem;
+        }
+    
+        #menu {
+            display: flex;
+        }
+
+        .nav-toggle-label {
+            display: none;
+        }
+}
