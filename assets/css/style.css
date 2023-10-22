@@ -85,6 +85,13 @@ main {
     flex-direction: column;
 }
 
+/* hero section */
+#hero {
+    height: 600px;
+    width: 100%;
+    background: url("../images/aether_hero_8.jpeg") no-repeat center center/cover;
+    position: relative;
+}
 /* Footer */
 #social-networks {
     background-color: #00004d;
@@ -101,6 +108,13 @@ main {
     color: #ffffff;
 }
 
+/* media queary for screens up to tablet (768px) */
+@media screen and (max-width:768px) {
+    #hero {
+        max-height: 200px;
+        position: relative;
+    }
+}
 
 
 /* Media query: tablets and larger (768px and up) */
@@ -130,4 +144,3 @@ main {
             line-height: 75px;
             margin: 0 0.5rem;
         }
-}
