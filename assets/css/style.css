@@ -28,6 +28,14 @@ h1, h2, h3 {
 /* Header */
 header{
     background-color: #00004d;
+    padding: 0 1rem;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    box-shadow: 0 2px 2px #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 }
 
 header a {
@@ -35,6 +43,36 @@ header a {
     color: inherit;
 }
 
+#menu {
+    font-size: 110%;
+    letter-spacing: 4px;
+    list-style-type: none;
+}
+
+/* navbar style with dropdown */
+nav {
+    position: absolute;
+    background-color: #00004d;
+    width: 100%;
+    left: 0;
+    padding: 0 2rem;
+    box-shadow: 0 1px 1px #ffffff;
+    display: none;
+    top: 100%;
+}
+
+/* Nav toggle */
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 2rem;
+}
 /* Main content */
 main {
     background-color: #15151e;
