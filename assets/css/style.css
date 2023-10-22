@@ -19,11 +19,22 @@ body {
     font-family: 'Kanit', sans-serif;
 }
 
+/* Header */
+header{
+    background-color: #00004d;
+}
+
+h1 {
+    font-family: 'Exo 2', sans-serif;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
 /* Main content */
 main {
     background-color: #15151e;
     flex: 1 0 auto;
-    margin-top: 47px;
     display: flex;
     flex-direction: column;
 }
