@@ -49,13 +49,18 @@ header a {
     list-style-type: none;
 }
 
+.active {
+    border-left: 2px solid #ffffff;
+    padding: 2px;
+}
+
 /* navbar style with dropdown */
 nav {
     position: absolute;
     background-color: #00004d;
     width: 100%;
     left: 0;
-    padding: 0 2rem;
+    padding: 0 1rem;
     box-shadow: 0 1px 1px #ffffff;
     display: none;
     top: 100%;
