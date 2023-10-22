@@ -19,17 +19,21 @@ body {
     font-family: 'Kanit', sans-serif;
 }
 
-/* Header */
-header{
-    background-color: #00004d;
-}
-
-h1 {
+h1, h2, h3 {
     font-family: 'Exo 2', sans-serif;
     color: #ffffff;
     text-decoration: none;
 }
 
+/* Header */
+header{
+    background-color: #00004d;
+}
+
+header a {
+    text-decoration: none;
+    color: inherit;
+}
 
 /* Main content */
 main {
