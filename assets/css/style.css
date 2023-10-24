@@ -22,8 +22,20 @@ body {
 h1, h2, h3 {
     font-family: 'Exo 2', sans-serif;
     color: #ffffff;
+    
+}
+
+h1 {
     text-decoration: none;
 }
+
+h2 {
+    text-align: center;
+}
+
+#intro>p {
+    text-align: center;
+} 
 
 /* Header */
 header{
@@ -113,6 +125,7 @@ main {
     #hero {
         max-height: 300px;
         position: relative;
+        flex-shrink: inherit;
     }
 }
 
