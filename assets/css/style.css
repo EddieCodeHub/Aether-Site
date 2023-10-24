@@ -35,7 +35,9 @@ h2 {
 
 #intro>p {
     text-align: center;
+    padding: 1.5rem;
 } 
+
 
 /* Header */
 header{
@@ -104,6 +106,13 @@ main {
     background: url("../images/aether_hero_final.png") no-repeat center center/cover;
     position: relative;
 }
+
+#home-image {
+    background-image: url("../images/home_image.png");
+    position: relative;
+}
+
+
 /* Footer */
 #social-networks {
     background-color: #00004d;
@@ -126,6 +135,13 @@ main {
         max-height: 300px;
         position: relative;
         flex-shrink: inherit;
+    }
+
+    #home-image {
+        min-height: 300px;
+        position: relative;
+        margin-right: auto;
+        justify-content: end;
     }
 }
 
@@ -156,6 +172,13 @@ main {
         font-size: 280%;
         line-height: 75px;
         margin: 0 0.5rem;
+    }
+
+    #home-image {
+        min-height: 600px;
+        background-repeat: no-repeat;
+        width: 100vw;
+        
     }
 }
 
