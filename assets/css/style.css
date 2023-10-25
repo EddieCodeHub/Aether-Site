@@ -107,10 +107,21 @@ main {
     position: relative;
 }
 
+
 #home-image {
-    background-image: url("../images/home_image.png");
+    height: 600px;
+    width: 100%;
+    background: url("../images/home_image.png") no-repeat center center/cover;
     position: relative;
 }
+
+
+
+
+/*img #home-image {
+   height: 600px;
+   width: 100%;
+}*/
 
 
 /* Footer */
@@ -138,10 +149,10 @@ main {
     }
 
     #home-image {
-        min-height: 300px;
+        max-height: 300px;
+        max-width: 100%;
         position: relative;
-        margin-right: auto;
-        justify-content: end;
+        object-position: left;
     }
 }
 
