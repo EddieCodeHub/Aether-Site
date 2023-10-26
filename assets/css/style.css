@@ -107,22 +107,22 @@ main {
     position: relative;
 }
 
+#intro_sec {
+    display: flex;
+    flex-direction: column;
+}
+
+#image-cont {
+    display: flex;
+}
 
 #home-image {
+    display: flex;
     height: 600px;
     width: 100%;
     background: url("../images/home_image.png") no-repeat center center/cover;
     position: relative;
 }
-
-
-
-
-/*img #home-image {
-   height: 600px;
-   width: 100%;
-}*/
-
 
 /* Footer */
 #social-networks {
@@ -149,10 +149,11 @@ main {
     }
 
     #home-image {
+        display: flex;
         max-height: 300px;
-        max-width: 100%;
-        position: relative;
+        width: 100vw;
         object-position: left;
+        flex-shrink: inherit;
     }
 }
 
@@ -192,4 +193,15 @@ main {
         
     }
 }
+
+
+/* Media query: large laptops and higher (1440px and up) */
+@media screen and (min-width:1440px) {
+    
+    #intro {
+        font-size: 200%;
+    }
+
+}
+
 
