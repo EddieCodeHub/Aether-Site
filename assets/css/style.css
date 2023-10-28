@@ -31,6 +31,7 @@ h1 {
 
 h2 {
     text-align: center;
+    text-decoration: underline;
 }
 
 #intro>p {
@@ -105,13 +106,10 @@ main {
     width: 100%;
     background: url("../images/aether_hero_final.png") no-repeat center center/cover;
     position: relative;
+    border-radius: 20px;
 }
 
-#intro_sec {
-    display: flex;
-    flex-direction: column;
-}
-
+/* Intro content */
 #image-cont {
     display: flex;
 }
@@ -122,10 +120,17 @@ main {
     width: 100%;
     background: url("../images/home_image.png") no-repeat center center/cover;
     position: relative;
+    border-radius: 20px;
 }
 
 #events-hyp {
     color: #ffffff;
+}
+
+#intro {
+    background-color: #33334d;
+    height: 600px;
+    border-radius: 20px;
 }
 
 /* Footer */
@@ -231,7 +236,14 @@ main {
     #image-cont {
         align-self: flex-start;
         width: 50vw;
+        border-radius: 5%;
     }
+
+    #home-image {
+        padding-left: 50px;
+    }
+
+   
     
     h2 {
         font-size: 300%;
