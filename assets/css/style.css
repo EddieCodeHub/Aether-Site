@@ -194,7 +194,10 @@ main {
         min-height: 600px;
         background-repeat: no-repeat;
         width: 100vw;
-        
+    }
+
+    #intro {
+        font-size: 140%;
     }
 }
 
@@ -203,7 +206,7 @@ main {
 @media screen and (min-width:1440px) {
     
     #intro {
-        font-size: 200%;
+        font-size: 160%;
     }
 
     h2 {
@@ -222,7 +225,7 @@ main {
         align-self: flex-end;
         width: 50vw;
         padding-bottom: 150px;
-    
+        font-size: 200%;
         }
     
     #image-cont {
