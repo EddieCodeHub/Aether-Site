@@ -124,6 +124,10 @@ main {
     position: relative;
 }
 
+#events-hyp {
+    color: #ffffff;
+}
+
 /* Footer */
 #social-networks {
     background-color: #00004d;
@@ -202,6 +206,32 @@ main {
         font-size: 200%;
     }
 
+    h2 {
+        font-size: 250%;
+    }
 }
 
+/* Media query: Desktop monitors (2560px and up) */
+@media screen and (min-width:2560px) {
+    #intro_div {
+         display: flex;
+         flex-direction: row;
+    }
+    
+    #intro {
+        align-self: flex-end;
+        width: 50vw;
+        padding-bottom: 150px;
+    
+        }
+    
+    #image-cont {
+        align-self: flex-start;
+        width: 50vw;
+    }
+    
+    h2 {
+        font-size: 300%;
+    }
 
+}
