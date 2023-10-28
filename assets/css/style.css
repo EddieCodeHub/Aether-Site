@@ -196,13 +196,14 @@ main {
     }
 
     #home-image {
-        min-height: 600px;
+        min-height: 400px;
         background-repeat: no-repeat;
         width: 100vw;
     }
 
     #intro {
         font-size: 140%;
+        height: 400px;
     }
 
     h2 {
@@ -235,7 +236,8 @@ main {
         width: 50vw;
         padding-bottom: 150px;
         font-size: 200%;
-        }
+        height: 600px;
+    }
     
     #image-cont {
         align-self: flex-start;
@@ -245,6 +247,7 @@ main {
 
     #home-image {
         padding-left: 50px;
+        
     }
 
    
