@@ -204,6 +204,10 @@ main {
     #intro {
         font-size: 140%;
     }
+
+    h2 {
+        font-size: 200%;
+    }
 }
 
 
