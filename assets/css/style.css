@@ -29,12 +29,12 @@ h1 {
     text-decoration: none;
 }
 
-h2 {
+h2, h3 {
     text-align: center;
     text-decoration: underline;
 }
 
-#intro>p {
+p {
     text-align: center;
     padding: 1.5rem;
 } 
@@ -98,6 +98,7 @@ main {
     flex: 1 0 auto;
     display: flex;
     flex-direction: column;
+    margin-top: 50px;
 }
 
 /* hero section */
@@ -140,6 +141,16 @@ main {
     justify-content: space-around;
 }
 
+
+/* Events page */
+
+#event_cal img{
+    display: flex;
+    width: 100%;
+    line-height: 1em;
+    background-repeat: no-repeat;
+}
+
 /* Footer */
 #social-networks {
     background-color: #00004d;
@@ -158,7 +169,7 @@ main {
 
 
 /* media queary for very thin screens (max375) */
-@media screen and (max-width:375px) {
+@media screen and (max-width:374px) {
 
     #intro {
         font-size: 85%;
@@ -191,7 +202,7 @@ main {
         margin-bottom: -25px;
     }
 
-
+   
 }
 
 
@@ -237,7 +248,12 @@ main {
     h2 {
         font-size: 200%;
     }
-}
+
+    main {
+        margin-top: 75px;
+    }
+
+
 
 
 /* Media query: large laptops and higher (1440px and up) */
