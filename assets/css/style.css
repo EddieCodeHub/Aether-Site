@@ -112,6 +112,7 @@ main {
 /* Intro content */
 #image-cont {
     display: flex;
+    width: 100vw;
 }
 
 #home-image {
@@ -131,6 +132,12 @@ main {
     background-color: #33334d;
     height: 600px;
     border-radius: 20px;
+    width: 100vw
+    
+}
+
+#intro_div {
+    justify-content: space-around;
 }
 
 /* Footer */
@@ -149,6 +156,15 @@ main {
     color: #ffffff;
 }
 
+
+/* media queary for very thin screens (max375) */
+@media screen and (max-width:375px) {
+
+    #intro {
+        font-size: 85%;
+    }
+}    
+
 /* media queary for screens up to tablet (768px) */
 @media screen and (max-width:768px) {
     #hero {
@@ -157,13 +173,25 @@ main {
         flex-shrink: inherit;
     }
 
+
+    
     #home-image {
         display: flex;
         max-height: 300px;
-        width: 100vw;
         object-position: left;
         flex-shrink: inherit;
+        align-content: space-around;
     }
+
+    #intro {
+        height: 400px;
+    }
+
+    #intro_par {
+        margin-bottom: -25px;
+    }
+
+
 }
 
 
@@ -198,12 +226,12 @@ main {
     #home-image {
         min-height: 400px;
         background-repeat: no-repeat;
-        width: 100vw;
     }
 
     #intro {
         font-size: 140%;
         height: 400px;
+        
     }
 
     h2 {
@@ -233,24 +261,26 @@ main {
     
     #intro {
         align-self: flex-end;
-        width: 50vw;
+        width: 47vw;
         padding-bottom: 150px;
         font-size: 200%;
         height: 600px;
+        padding-left: 10px
+
     }
     
     #image-cont {
         align-self: flex-start;
-        width: 50vw;
+        width: 47vw;
         border-radius: 5%;
+        padding-right: 10px
     }
 
-    #home-image {
-        padding-left: 50px;
-        
+    #intro_div {
+        justify-content: space-around;
+        padding-bottom: 40px;
     }
-
-   
+    
     
     h2 {
         font-size: 300%;
