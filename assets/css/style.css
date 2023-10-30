@@ -143,7 +143,6 @@ main {
 
 
 /* Events page */
-
 #event_cal img{
     display: flex;
     width: 100%;
@@ -168,7 +167,7 @@ main {
 }
 
 
-/* media queary for very thin screens (max375) */
+/* media queary for very thin screens (max375px) */
 @media screen and (max-width:374px) {
 
     #intro {
