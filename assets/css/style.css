@@ -129,7 +129,7 @@ main {
     color: #ffffff;
 }
 
-#intro, #events, #cal_info  {
+#intro, #events, #cal_info, #games_par  {
     background-color: #33334d;
     height: inherit;
     border-radius: 20px;
@@ -143,7 +143,7 @@ main {
 
 
 /* Events page */
-#event_cal img, #bingo_board img, #games_img img {
+#event_cal img, #bingo_board img, #wheel_img img {
     display: flex;
     width: 100%;
     line-height: 1em;
@@ -172,7 +172,7 @@ main {
 @media screen and (max-width:374px) {
 
     #intro, #events,
-    #cal_info {
+    #cal_info, #games_par {
         font-size: 85%;
     }
 }    
@@ -189,7 +189,7 @@ main {
     
     #home-image, #event_cal img,
     #bingo_board img,
-    #games_img img {
+    #wheel_img img {
         display: flex;
         max-height: 300px;
         object-position: left;
@@ -198,7 +198,7 @@ main {
     }
 
     #intro,  #events,
-     #cal_info {
+     #cal_info, #games_par {
         height: 400px;
     }
 
@@ -240,13 +240,13 @@ main {
 
     #home-image, #event_cal img,
     #bingo_board img,
-    #games_img img {
+    #wheel_img img {
         min-height: 400px;
         background-repeat: no-repeat;
     }
 
     #intro,  #events,
-     #cal_info {
+     #cal_info, #games_par {
         font-size: 140%;
         height: 400px;
         
@@ -267,7 +267,7 @@ main {
 @media screen and (min-width:1440px) {
     
     #intro, #events,
-     #cal_info {
+     #cal_info, #games_par {
         font-size: 160%;
     }
 
@@ -286,7 +286,7 @@ main {
     }
     
     #intro,  #events,
-     #cal_info  {
+     #cal_info, #games_par  {
         align-self: flex-end;
         width: 47vw;
         padding-bottom: 150px;
@@ -298,7 +298,7 @@ main {
     
     #image-cont, #event_cal img,
     #bingo_board img,
-    #games_img img {
+    #wheel_img img {
         align-self: flex-start;
         width: 47vw;
         border-radius: 5%;
