@@ -34,10 +34,15 @@ h2, h3 {
     text-decoration: underline;
 }
 
+#events_head {
+    padding-top: 20px;
+}
+
 p, ul {
     text-align: center;
     padding: 1.5rem;
 } 
+
 
 
 /* Header */
@@ -199,7 +204,7 @@ main {
 
     #intro,  #events,
      #cal_info, #games_par {
-        height: 400px;
+        height: fit-content;
     }
 
     #intro_par {
@@ -248,7 +253,7 @@ main {
     #intro,  #events,
      #cal_info, #games_par {
         font-size: 140%;
-        height: 400px;
+        height: fit-content;
         
     }
 
@@ -289,9 +294,7 @@ main {
      #cal_info, #games_par  {
         align-self: flex-end;
         width: 47vw;
-        padding-bottom: 150px;
         font-size: 200%;
-        height: 600px;
         padding-left: 10px
 
     }
@@ -301,8 +304,10 @@ main {
     #wheel_img img {
         align-self: flex-start;
         width: 47vw;
+       
         border-radius: 5%;
         padding-right: 10px
+        
     }
 
     #intro_div,  #calander_sec,
@@ -316,5 +321,23 @@ main {
         font-size: 300%;
     }
 
-}
+    #intro {
+        padding-bottom: 150px;
+    }
+
+
+    
+    
+    #intro, #image_cont {
+        height: 600px;
+    }
+
+
+    #events, #cal_info, #games_par, #event_cal img,
+    #bingo_board img,
+    #wheel_img img {
+        height: 800px
+    }
+
+
 }
