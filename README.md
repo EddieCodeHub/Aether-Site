@@ -4,16 +4,24 @@ Aether Clan osrs is a website that is aimed at people who play the online MMORPG
 
 ## Features
 
-### **Navigation bar**
+### **Header**
 
-- The navigation bar will be featured on all three pages, it will be fully responsive and incude home link in the logo, Home page, Events page and a Signup page
+- The Header Will feature a logo that will be the name of the Clan "AETHER"
 
-- The nav section will allow the user to navigate to any page on the site, no matter what page your currently on
+- This feature will will be fully responsive and incude home link in the logo, Home page, Events page and a Signup page.
 
+- The nav section will allow the user to navigate to any page on the site, no matter what page your currently on.
 
 ### **Footer**
 
+- The footer will include Social media sites relevant to Aether clan. The link will open in a new tab to make navigating back to the site easier for the user.
 
-- The footer will include Social media sites relevant to Aether clan. The link will open in a new tab to make navigating back to the site easier for the user
+- The footer is valuable to the user as it provides ways to gain more information about the clan, also providing a way to join the clans social servers.
 
-- The footer is valuable to the user as it provides ways to gain more information about the clan, also providing a way to join the clans social servers
+### **Home Page**
+
+- The home page will include a hero image that will be an AETHER Clan graphic. This is to attract the attention to the reader and encourage to look further.
+
+- The section below will be an introduction paragraph to the clan, acompanied by an image of a clan activity. the purpose of this section is to provide a small amount of information about the clan, and guide the reader to find out more on the events page.
+
+- The main aim of this page is to attract the reader to find out more about what the Clan can offer, but also make a deicision if the clan isnt right for them, with the small amount of information provided. This is to avoid wasting a readers time who is looking for a different type of clan.
