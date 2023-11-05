@@ -313,7 +313,6 @@ main {
     #wheel_img img {
         width: 47vw;     
         border-radius: 5%;
-        padding-right: 10px
         
     }
 
@@ -348,6 +347,7 @@ main {
 
     .left {
         order: 1;
+        padding-right: 10px
     }
 
     .right {

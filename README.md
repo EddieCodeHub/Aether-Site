@@ -4,24 +4,16 @@ Aether Clan osrs is a website that is aimed at people who play the online MMORPG
 
 ## Features
 
-### <strong>Navigation bar</strong>
+### **Navigation bar**
 
-<ul>
-<li>
-The navigation bar will be featured on all three pages, it will be fully responsive and incude home link in the logo, Home page, Events page and a Signup page
-</li>
-<li>
-The nav section will allow the user to navigate to any page on the site, no matter what page your currently on
-</li>
-</ul>
+- The navigation bar will be featured on all three pages, it will be fully responsive and incude home link in the logo, Home page, Events page and a Signup page
 
-### <strong>Footer</strong>
+- The nav section will allow the user to navigate to any page on the site, no matter what page your currently on
 
-<ul>
-<li>
-The footer will include Social media sites relevant to Aether clan. The link will open in a new tab to make navigating back to the site easier for the user
-</li>
-<li>
-The footer is valuable to the user as it provides ways to gain more information about the clan, also providing a way to join the clans social servers
-</li>
-</ul>
+
+### **Footer**
+
+
+- The footer will include Social media sites relevant to Aether clan. The link will open in a new tab to make navigating back to the site easier for the user
+
+- The footer is valuable to the user as it provides ways to gain more information about the clan, also providing a way to join the clans social servers
