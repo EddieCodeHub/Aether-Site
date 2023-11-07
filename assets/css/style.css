@@ -278,7 +278,7 @@ main {
     
     #intro, #events,
      #cal_info, #games_par {
-        font-size: 160%;
+        font-size: 150%;
     }
 
     h2 {
@@ -286,8 +286,8 @@ main {
     }
 }
 
-/* Media query: Desktop monitors (2560px and up) */
-@media screen and (min-width:2560px) {
+/* Media query: Desktop monitors (1920px and up) */
+@media screen and (min-width:1920px) {
 
     nav {
         font-size: 130%;
@@ -303,7 +303,7 @@ main {
     #intro,  #events,
      #cal_info, #games_par  {
         width: 47vw;
-        font-size: 200%;
+        font-size: 150%;
         padding-left: 10px
 
     }
@@ -324,7 +324,7 @@ main {
     
     
     h2 {
-        font-size: 300%;
+        font-size: 250%;
     }
 
     #intro {
@@ -342,7 +342,7 @@ main {
     #events, #cal_info, #games_par, #event_cal img,
     #bingo_board img,
     #wheel_img img {
-        height: 800px
+        height: 600px
     }
 
     .left {
@@ -354,6 +354,36 @@ main {
         order: 2;
     }
 
+    h2 {
+        font-size: 300%;
+    }
 
 }
+
+/* Media query: Desktop monitors (2560px and up) */
+@media screen and (min-width:2560px) {
+
+    #intro,
+    #image_cont {
+        height: 600px;
+    }
+    
+    
+    #events,
+    #cal_info,
+    #games_par,
+    #event_cal img,
+    #bingo_board img,
+    #wheel_img img {
+        height: 800px
+    }
+
+    #intro,
+    #events,
+    #cal_info,
+    #games_par {
+        font-size: 200%;
+
+
+    } 
 }
