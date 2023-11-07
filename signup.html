@@ -44,7 +44,7 @@
         <section id="signup">
             <form action="https://formdump.codeinstitute.net" method="post" id="signup-form">
                 <h3>Join The Clan!</h3>
-                <label for="ign"></label>
+                <label for="ign">OSRS Character name</label>
                 <input type="text" name="ign_input" id="ign_input" class="ign_input" required>
                 <br>
                 <label for="discord-name">Discord name</label>
@@ -52,10 +52,17 @@
                 <br>
                 <div>
                     <div>
-                        
+                        <label for="pvm">PvM</label>
+                        <input type="radio" id="pvm" class="pvm" name="pvm">
                     </div>
-                    <div></div>
-                    <div></div>
+                    <div>
+                        <label for="social">Social</label>
+                        <input type="radio" id="social" class="social" name="social">
+                    </div>
+                    <div>
+                        <label for="both">Both</label>
+                        <input type="radio" id="both" class="both" name="both">
+                    </div>
                 </div>
             </form>
         </section>
