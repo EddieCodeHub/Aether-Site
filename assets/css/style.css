@@ -255,9 +255,7 @@ main {
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width:767px) {
 
-    #final_par {
-        margin-top: 30px;
-    }
+
 
     nav {
         display: block;
@@ -307,6 +305,9 @@ main {
         margin-top: 75px;
     }
 
+    #final_par {
+        margin-top: 30px;
+    }
 
 
 }
