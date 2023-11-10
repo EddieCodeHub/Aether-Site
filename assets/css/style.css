@@ -1,0 +1,424 @@
+/* Google fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Kanit:wght@300&display=swap');
+
+
+/* Asterisk wildcard selector to override default styles added by the browser */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* General styles */
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* Generic project styles */
+    color: #ffffff;
+    font-family: 'Kanit', sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: 'Exo 2', sans-serif;
+    color: #ffffff;
+    
+}
+
+h1 {
+    text-decoration: none;
+}
+
+h2, h3 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+h3 {
+    padding-top: 10px;
+}
+
+#events_head {
+    padding-top: 20px;
+}
+
+p, ul {
+    text-align: center;
+    padding: 1.5rem;
+} 
+
+
+
+/* Header */
+header{
+    background-color: #00004d;
+    padding: 0 1rem;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    box-shadow: 0 2px 2px #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+header a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu {
+    font-size: 110%;
+    letter-spacing: 4px;
+    list-style-type: none;
+}
+
+.active {
+    border-bottom: 2px solid #ffffff;
+}
+
+/* navbar style with dropdown */
+nav {
+    position: absolute;
+    background-color: #00004d;
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    box-shadow: 0 1px 1px #ffffff;
+    display: none;
+    top: 100%;
+    font-weight: bold;
+}
+
+/* Nav toggle */
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 2rem;
+}
+/* Main content */
+main {
+    background-color: #15151e;
+    flex: 1 0 auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+/* hero section */
+#hero {
+    height: 600px;
+    width: 100%;
+    background: url("../images/aether_hero_final.png") no-repeat center center/cover;
+    position: relative;
+    border-radius: 20px;
+}
+
+/* Intro content */
+#image-cont {
+    display: flex;
+    width: 100vw;
+}
+
+#home-image {
+    display: flex;
+    height: 600px;
+    width: 100%;
+    background: url("../images/home_image.png") no-repeat center center/cover;
+    position: relative;
+    border-radius: 20px;
+}
+
+#hyp {
+    color: #ffffff;
+}
+
+#intro, #events, #cal_info, #games_par  {
+    background-color: #33334d;
+    height: inherit;
+    border-radius: 20px;
+    width: 100vw
+    
+}
+
+#intro_div {
+    justify-content: space-around;
+}
+
+
+/* Events page */
+#event_cal img, #bingo_board img, #wheel_img img {
+    display: flex;
+    width: 100%;
+    line-height: 1em;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+}
+
+/* Signup page */
+
+#signup {
+    background-color: #00004d;
+    padding: 5px;
+    margin: 1rem;
+    border-radius: 5px;
+}
+
+#signup-form {
+    background-color: #33334d;
+    padding: 10px;
+    border-radius: 5px;
+    
+}
+
+#final_par {
+    background-color: #33334d;
+    margin: 1rem;
+    border-radius: 5px;
+}
+
+#final_par>div>h3 {
+    margin-bottom: 10px;
+}
+
+#radio-buttons {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Footer */
+#social-networks {
+    background-color: #00004d;
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+#social-networks i {
+    font-size: 160%;
+    padding: 5%;
+    color: #ffffff;
+}
+
+
+/* media queary for very thin screens (max375px) */
+@media screen and (max-width:374px) {
+
+    #intro, #events,
+    #cal_info, #games_par {
+        font-size: 85%;
+    }
+}    
+
+/* media queary for screens up to tablet (768px) */
+@media screen and (max-width:768px) { 
+    #hero {
+        max-height: 300px;
+        position: relative;
+        flex-shrink: inherit;
+    }
+
+
+    
+    #home-image, #event_cal img,
+    #bingo_board img,
+    #wheel_img img {
+        display: flex;
+        max-height: 300px;
+        object-position: left;
+        flex-shrink: inherit;
+        align-content: space-around;
+    }
+
+    #intro,  #events,
+     #cal_info, #games_par {
+        height: fit-content;
+    }
+
+    #intro_par {
+        margin-bottom: -25px;
+    }
+
+   
+}
+
+
+/* Media query: tablets and larger (768px and up) */
+@media screen and (min-width:767px) {
+
+    #final_par {
+        margin-top: 30px;
+    }
+
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+        }
+    
+    #menu {
+        display: flex;
+    }
+
+    #menu>li {
+        padding-left: 1rem;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
+
+    #logo {
+        font-size: 280%;
+        line-height: 75px;
+        margin: 0 0.5rem;
+    }
+
+    #home-image, #event_cal img,
+    #bingo_board img,
+    #wheel_img img {
+        min-height: 400px;
+        background-repeat: no-repeat;
+    }
+
+    #intro,  #events,
+     #cal_info, #games_par {
+        font-size: 140%;
+        height: fit-content;
+        
+    }
+
+    h2 {
+        font-size: 200%;
+    }
+
+    main {
+        margin-top: 75px;
+    }
+
+
+
+}
+/* Media query: large laptops and higher (1440px and up) */
+@media screen and (min-width:1440px) {
+    
+    #intro, #events,
+     #cal_info, #games_par {
+        font-size: 150%;
+    }
+
+    h2 {
+        font-size: 250%;
+    }
+}
+
+/* Media query: Desktop monitors (1920px and up) */
+@media screen and (min-width:1920px) {
+
+    nav {
+        font-size: 130%;
+    }
+
+    #intro_div, #calander_sec, #events_sec, #games_sec {
+        display: flex;
+        flex-direction: row;
+        
+
+    }
+    
+    #intro,  #events,
+     #cal_info, #games_par  {
+        width: 47vw;
+        font-size: 150%;
+        padding-left: 10px
+
+    }
+    
+    #image-cont, #event_cal img,
+    #bingo_board img,
+    #wheel_img img {
+        width: 47vw;     
+        border-radius: 5%;
+        
+    }
+
+    #intro_div,  #calander_sec,
+     #events_sec, #games_sec {
+        justify-content: space-around;
+        padding-bottom: 40px;
+    }
+    
+    
+    h2 {
+        font-size: 250%;
+    }
+
+    #intro {
+        padding-bottom: 150px;
+    }
+
+
+    
+    
+    #intro, #image_cont {
+        height: 600px;
+    }
+
+
+    #events, #cal_info, #games_par, #event_cal img,
+    #bingo_board img,
+    #wheel_img img {
+        height: 600px
+    }
+
+    .left {
+        order: 1;
+        padding-right: 10px
+    }
+
+    .right {
+        order: 2;
+    }
+
+    h2 {
+        font-size: 300%;
+    }
+
+}
+
+/* Media query: Desktop monitors (2560px and up) */
+@media screen and (min-width:2560px) {
+
+    #intro,
+    #image_cont {
+        height: 600px;
+    }
+    
+    
+    #events,
+    #cal_info,
+    #games_par,
+    #event_cal img,
+    #bingo_board img,
+    #wheel_img img {
+        height: 800px
+    }
+
+    #intro,
+    #events,
+    #cal_info,
+    #games_par {
+        font-size: 200%;
+    } 
+}
