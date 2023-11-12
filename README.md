@@ -42,4 +42,4 @@ Aether Clan osrs is a website that is aimed at people who play the online MMORPG
 
 - The page will feature a form to collect relevent data from the reader.
   
-- The form will collect the reader In Game Name (IGN), Discord Name 
+- The form will collect the reader In Game Name (IGN), Discord Name, and information and why the reader is joining.
