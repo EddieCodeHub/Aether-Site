@@ -225,18 +225,20 @@ main {
     #cal_info, #games_par {
         font-size: 85%;
     }
+
+    
 }    
 
 /* media queary for screens up to tablet (768px) */
-@media screen and (max-width:768px) { 
+@media screen and (max-width:767px) { 
     #hero {
         max-height: 300px;
         position: relative;
         flex-shrink: inherit;
     }
-
-
     
+    #signup-page
+
     #home-image, #event_cal img,
     #bingo_board img,
     #wheel_img img {
@@ -256,12 +258,10 @@ main {
         margin-bottom: -25px;
     }
 
-   
 }
 
-
 /* Media query: tablets and larger (768px and up) */
-@media screen and (min-width:767px) {
+@media screen and (min-width:768px) {
 
 
 
@@ -317,8 +317,29 @@ main {
         margin-top: 30px;
     }
 
+    #signup-page {
+        display: flex;
+        font-size: 130%;
+        flex-direction: row;
+    }
+
+    #final_par {
+        width: 47wv;
+    }
+
+    #signup {
+        width: 47wv;
+    }
+
+    #radio-buttons {
+        justify-content: space-evenly;
+    }
+
+    
 
 }
+
+
 /* Media query: large laptops and higher (1440px and up) */
 @media screen and (min-width:1440px) {
     
@@ -329,6 +350,10 @@ main {
 
     h2 {
         font-size: 250%;
+    }
+
+    #signup-page {
+        font-size: 150%;
     }
 }
 
@@ -406,7 +431,7 @@ main {
 
 }
 
-/* Media query: Desktop monitors (2560px and up) */
+/* Media query: Desktop monitors HD (2560px and up) */
 @media screen and (min-width:2560px) {
 
     #intro,
