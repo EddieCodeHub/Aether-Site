@@ -20,7 +20,7 @@ Aether Clan osrs is a website that is aimed at people who play the online MMORPG
 
 ### **Home Page**
 
-- The home page will include a hero image that will be an AETHER Clan graphic. This is to attract the attention to the reader and encourage to look further.
+- The home page will include a hero image of space. This fits out 'aether'  theme and its purpose  is to attract the attention to the reader and encourage to look further.
 
 - The section below will be an introduction paragraph to the clan, acompanied by an image of a clan activity. the purpose of this section is to provide a small amount of information about the clan, and guide the reader to find out more on the events page.
 
@@ -43,3 +43,57 @@ Aether Clan osrs is a website that is aimed at people who play the online MMORPG
 - The page will feature a form to collect relevent data from the reader.
   
 - The form will collect the reader In Game Name (IGN), Discord Name, and information and why the reader is joining.
+
+## Testing
+
+- I checked that the site is responive and looks good at standard screen sizes using devtools device toolbar.
+
+- I have confirmed that all the text is easy to read and understand.
+  
+- I have confirmed that all page links and social media links work as intended.
+
+- I have chacked that the form works correctly.
+  
+## Bugs
+
+- When trying to style the homepage image, i was struggling to get the image to do what i wanted it to do.
+- After some trial and error, i placed the 'DIV' that my image was a background image of, into another DIV, then applied the CSS to the parent DIV and this fixed my issues.
+  
+- When first testing the signup form, the form dump showed an 'on' value for my radio buttons.
+- i fixed this by adding the missing 'required checked' to all my radio buttons
+  
+- After attempting to set up VS Code, due to probles with codeanywhere. i managed to make my repo start failing to update my deployed page.
+
+## Validator Testing
+
+### HTML
+
+- No errors were found when passing through official WEC validator.
+  
+### CSS 
+
+- No errors were found when passing throught the official (jigsaw) validator.
+
+### Accessibilty
+
+- I used Devtools 'lighthouse' to confirm that my website had suitable accessibility.
+
+## Deployment
+
+I deployed my site using 'GitHub Pages'. the following steps are how i did it
+
+- enter the github repository and click on the settings tab.
+- in the source section, select the dropdown menu, then select the master branch.
+- Once the master branch is selected, github provided a link to the completed website.
+
+a live link can be found here - "link"
+
+## Credits 
+
+### Content
+
+- i used code from the CI [Love running](https://eddiecodehub.github.io/LoveRunningWalkthrough/index.html) Project to help create my Header and Footer
+
+### Media
+
+- The Hero image on the homepage was taken from [Pexels](https://www.pexels.com/)

@@ -45,7 +45,11 @@ h3 {
 p, ul {
     text-align: center;
     padding: 1.5rem;
-} 
+}
+
+#hidden-heading {
+    display: none;
+}
 
 
 
@@ -355,7 +359,7 @@ input[type=text] {
 
     input[type=text] {
         width: 40vw;
-        height: 22px;
+        height: 22px;   
     }
 
     #join-button {
@@ -387,6 +391,7 @@ input[type=text] {
 
     input[type=text] {
         height: 25px;
+       
     }
 
     #join-button {

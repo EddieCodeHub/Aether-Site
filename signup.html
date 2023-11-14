@@ -20,16 +20,16 @@
     <link rel="manifest" href="assets/favicon/site.webmanifest">
 
     <!-- Stylesheet -->
-    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/style.css" >
 </head>
 
 <body>
-    <!-- Header -->
+    <!-- Header (code credited in README.md) -->
     <header>
         <a href="index.html">
             <h1 id="logo" class="logo">AETHER</h1>
         </a>
-        <input type="checkbox" id="nav-toggle" name="nav-toggle" />
+        <input type="checkbox" id="nav-toggle" name="nav-toggle" >
         <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-bars"></i></label>
         <nav>
             <ul id="menu">
@@ -52,24 +52,24 @@
             </div>
             <div id="signup">
                 <form action="https://formdump.codeinstitute.net" method="post" id="signup-form">
-                    <label for="ign">Character name</label>
+                    <label for="ign_input">Character name</label>
                     <input type="text" name="ign_input" id="ign_input" class="ign_input" required>
                     <br>
-                    <label for="discord-name">Discord name</label>
+                    <label for="disc_name">Discord name</label>
                     <input type="text" name="disc_name" id="disc_name" class="disc_name" required>
                     <br>
                     <div id="radio-buttons">
                         <div>
                             <label for="pvm">PvM</label>
-                            <input type="radio" id="pvm" class="pvm" name="reason">
+                            <input type="radio" id="pvm" class="pvm" name="reason" value="pvm" required checked>
                         </div>
                         <div>
                             <label for="social">Social</label>
-                            <input type="radio" id="social" class="social" name="reason">
+                            <input type="radio" id="social" class="social" name="reason" value="social" required checked>
                         </div>
                         <div>
                             <label for="both">Both</label>
-                            <input type="radio" id="both" class="both" name="reason">
+                            <input type="radio" id="both" class="both" name="reason" value="both" required checked>
                         </div>
                         <button type="submit" id="join-button">Apply for invite</button>
                     </div>
@@ -78,7 +78,7 @@
         </section>
   
     </main>
-    <!-- Footer -->
+    <!-- Footer (code credited in README.md) -->
     <footer>
         <ul id="social-networks">
             <li>
