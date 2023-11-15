@@ -47,6 +47,10 @@ p, ul {
     padding: 1.5rem;
 }
 
+ul {
+    padding-left: 40px;
+}
+
 #hidden-heading {
     display: none;
 }
