@@ -2,6 +2,8 @@
 
 Aether Clan osrs is a website that is aimed at people who play the online MMORPG 'OldSchool Runecape', that are looking to join a 'clan'. Clans are a social aspect to the online experience of this game and tbe site advertises 'Aether clan' in order to be found by this audience. It shall advertise what the clan has to offer to the user. The site will do this mainly through displaying upcoming/past in-game events in the 'events' page. The site will also provide links to the clans social media pages if they would like more information, and also a link to the clans disboard page, so that the user can join the clan if they would like to. The user will also be provided with a signup page so that they can sign up to the clan, without leaving the site.
 
+"am i responsive image"
+
 ## Features
 
 ### **Header**
@@ -11,6 +13,8 @@ Aether Clan osrs is a website that is aimed at people who play the online MMORPG
 - This feature will will be fully responsive and incude home link in the logo, Home page, Events page and a Signup page.
 
 - The nav section will allow the user to navigate to any page on the site, no matter what page your currently on.
+  
+![image of website header](header_img.png)
 
 ### **Footer**
 
@@ -68,7 +72,9 @@ Aether Clan osrs is a website that is aimed at people who play the online MMORPG
 
 ### HTML
 
-- No errors were found when passing through official WEC validator.
+- When i first ran my HTML through through the WEC validator, it returned a few minor errors.
+- The errors were a few trailing slashes in my code, and the other being a missing header on my home page.
+- I fixed these issues by removing the trailing slashes and adding a hidden header to my home page.
   
 ### CSS 
 
@@ -92,7 +98,7 @@ a live link can be found here - "link"
 
 ### Content
 
-- i used code from the CI [Love running](https://eddiecodehub.github.io/LoveRunningWalkthrough/index.html) Project to help create my Header and Footer
+- I used code from the CI [Love running](https://eddiecodehub.github.io/LoveRunningWalkthrough/index.html) Project to help create my Header and Footer
 
 ### Media
 
