@@ -388,8 +388,8 @@ input[type=text] {
 }
 
 
-/* Media query: large laptops and higher (1440px and up) */
-@media screen and (min-width:1440px) {
+/* Media query: large laptops and higher (1280px and up) */
+@media screen and (min-width:1280px) {
     
     #intro, #events,
      #cal_info, #games_par {
