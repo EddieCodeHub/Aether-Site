@@ -223,10 +223,11 @@ main {
     color: #ffffff;
     font-family: 'exo 2';
     font-weight: bold;
-    border-radius: 5px;
+    border-radius: 10px;
     margin: auto;
     margin-top: 20px;
     margin-bottom: 20px;
+    padding: 10px;
 }
 
 
