@@ -1,12 +1,61 @@
 # Aether Clan Osrs
 
+![image of website responsiveness](assets/images/responsive_img.png)
+
+
 Aether Clan osrs is a website that is aimed at people who play the online MMORPG 'OldSchool Runecape', that are looking to join a 'clan'. Clans are a social aspect to the online experience of this game and tbe site advertises 'Aether clan' in order to be found by this audience. It shall advertise what the clan has to offer to the user. The site will do this mainly through displaying upcoming/past in-game events in the 'events' page. The site will also provide links to the clans social media pages if they would like more information, and also a link to the clans disboard page, so that the user can join the clan if they would like to. The user will also be provided with a signup page so that they can sign up to the clan, without leaving the site.
 
-"am i responsive image"
+## Table of Contents
+- [Aether Clan Osrs](#aether-clan-osrs)
+  - [Table of Contents](#table-of-contents)
+  - [UX](#ux)
+    - [Project Goals](#project-goals)
+    - [User Stories](#user-stories)
+  - [Features](#features)
+    - [Header](#header)
+    - [Footer](#footer)
+    - [Home Page](#home-page)
+    - [Events Page](#events-page)
+    - [Join Us page](#join-us-page)
+  - [Testing](#testing)
+        - [Home Page](#home-page-1)
+      - [Events Page](#events-page-1)
+      - [Signup Page](#signup-page)
+  - [Bugs](#bugs)
+  - [Validator Testing](#validator-testing)
+    - [HTML](#html)
+    - [CSS](#css)
+    - [Accessibilty](#accessibilty)
+  - [Deployment](#deployment)
+  - [Credits](#credits)
+    - [Content](#content)
+    - [Media](#media)
 
-## Features
+## UX
 
-### **Header**
+### Project Goals
+
+- The site will have a dark colour scheme, this is to fit the clans 'Space' theme in the Clan discord server.
+  
+- It will inform the user of clan events and morals, with an aim to help the user decide if the clan is suitable for them.
+  
+- Provide the user with multiple ways to join the clan, depending on what sort of content they want to take part in.
+  
+### User Stories
+
+- As a user i want to be able to navigate the site smoothly.
+  
+- As a user i want the flow of the page to encourage me to scroll further.
+  
+- As a user i want to be shown key information about the clan and images to give context.
+  
+- As a user i want to be able to make a decision on whether i like what the clan has to offer.
+  
+- As a user i want to be presented with an easy way to join the clan.
+
+## Features 
+
+### Header
 
 - The Header Will feature a logo that will be the name of the Clan "AETHER"
 
@@ -16,15 +65,15 @@ Aether Clan osrs is a website that is aimed at people who play the online MMORPG
   
 ![image of website header](assets/images/header_img.png)
 
-### **Footer**
+### Footer
 
 - The footer will include Social media sites relevant to Aether clan. The link will open in a new tab to make navigating back to the site easier for the user.
 
 - The footer is valuable to the user as it provides ways to gain more information about the clan, also providing a way to join the clans social servers.
 
-![image of website header](assets/images/footer_img.png)
+![image of website footer](assets/images/footer_img.png)
 
-### **Home Page**
+### Home Page
 
 - The home page will include a hero image of space. This fits out 'aether'  theme and its purpose  is to attract the attention to the reader and encourage to look further.
 
@@ -32,9 +81,9 @@ Aether Clan osrs is a website that is aimed at people who play the online MMORPG
 
 - The main aim of this page is to attract the reader to find out more about what the Clan can offer, but also make a deicision if the clan isnt right for them, with the small amount of information provided. This is to avoid wasting a readers time who is looking for a different type of clan.
 
-![image of website header](assets/images/homepage_img.png)
+![image of home page](assets/images/homepage_img.png)
 
-### **Events Page**
+### Events Page
 
 - This page will provide more information about Clan events.
 
@@ -44,9 +93,9 @@ Aether Clan osrs is a website that is aimed at people who play the online MMORPG
 
 - The Final paragraph of the page will direct the reader to the 'Join us' page, so they can join the clan if they wish. This paragraph will also feature a hyperlink to the 'Join us'.
   
-![image of website header](assets/images/events_img.png)
+![image of events page](assets/images/events_img.png)
   
-### **Join Us page**
+### Join Us page
 
 - This page will follow the same colour scheme as the home and events page.
 
@@ -54,7 +103,7 @@ Aether Clan osrs is a website that is aimed at people who play the online MMORPG
   
 - The form will collect the reader In Game Name (IGN), Discord Name, and information and why the reader is joining.
   
-![image of website header](assets/images/signup_img.png)
+![image of join us page](assets/images/signup_img.png)
 
 ## Testing
 
@@ -64,19 +113,19 @@ Aether Clan osrs is a website that is aimed at people who play the online MMORPG
   
 - I have confirmed that all page links and social media links work as intended.
 
-- I have chacked that the form works correctly.
+- I have checked that the form works correctly.
   
 ##### Home Page
 
-![image of website header](assets/images/home_test_img.png)
+![image of home page lighthouse test](assets/images/home_test_img.png)
 
 #### Events Page 
 
-![image of website header](assets/images/events_test_img.png)
+![image of events page lighthouse test](assets/images/events_test_img.png)
 
 #### Signup Page
 
-![image of website header](assets/images/signup_test_img.png)
+![image of signup page lighthouse test](assets/images/signup_test_img.png)
 
 ## Bugs
 
@@ -116,7 +165,7 @@ I deployed my site using 'GitHub Pages'. the following steps are how i did it
 
 a live link can be found here - [Aether Clan OSRS](https://eddiecodehub.github.io/Aether-Site/)
 
-## Credits 
+## Credits
 
 ### Content
 
