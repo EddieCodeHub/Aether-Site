@@ -87,6 +87,8 @@ Aether Clan osrs is a website that is aimed at people who play the online MMORPG
 - i fixed this by adding the missing 'required checked' to all my radio buttons
   
 - After attempting to set up VS Code, due to probles with codeanywhere. i managed to make my repo start failing to update my deployed page.
+- This was due to some files that i accidently created inside my project when attempting to make a clone with VS Code.
+- Deleting the files fixed the problem.
 
 ## Validator Testing
 
@@ -112,7 +114,7 @@ I deployed my site using 'GitHub Pages'. the following steps are how i did it
 - in the source section, select the dropdown menu, then select the master branch.
 - Once the master branch is selected, github provided a link to the completed website.
 
-a live link can be found here - "link"
+a live link can be found here - [Aether Clan OSRS](https://eddiecodehub.github.io/Aether-Site/)
 
 ## Credits 
 
