@@ -18,7 +18,7 @@ Aether Clan osrs is a website that is aimed at people who play the online MMORPG
     - [Events Page](#events-page)
     - [Join Us page](#join-us-page)
   - [Testing](#testing)
-        - [Home Page](#home-page-1)
+      - [Home Page](#home-page-1)
       - [Events Page](#events-page-1)
       - [Signup Page](#signup-page)
   - [Bugs](#bugs)
@@ -115,7 +115,7 @@ Aether Clan osrs is a website that is aimed at people who play the online MMORPG
 
 - I have checked that the form works correctly.
   
-##### Home Page
+#### Home Page
 
 ![image of home page lighthouse test](assets/images/home_test_img.png)
 
