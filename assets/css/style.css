@@ -490,19 +490,12 @@ input[type=text] {
     
     #intro,  #events,
      #cal_info, #games_par  {
-        width: 47vw;
         font-size: 150%;
         padding-left: 10px
 
     }
     
-    #image-cont, #event_cal img,
-    #bingo_board img,
-    #wheel_img img {
-        width: 47vw;     
-        border-radius: 5%;
-        
-    }
+
 
     #intro_div,  #calander_sec,
      #events_sec, #games_sec {
