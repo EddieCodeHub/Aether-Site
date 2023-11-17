@@ -425,6 +425,55 @@ input[type=text] {
     input[type=text]:hover {
         border-color: rgba(10, 10, 197, 0.5);
     }
+
+    #intro_div,
+    #calander_sec,
+    #events_sec,
+    #games_sec {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    #events,
+    #cal_info,
+    #games_par {
+        width: 47vw;
+        font-size: 100%;
+        padding-left: 10px;
+        height: 400px;
+
+    }
+    
+    #image-cont,
+    #event_cal img,
+    #bingo_board img,
+    #wheel_img img {
+        width: 47vw;
+        border-radius: 5%;
+        height: 400px
+    }
+
+    #signup {
+        margin-bottom: 20px;
+    }
+    
+    #intro_div,
+    #calander_sec,
+    #events_sec,
+    #games_sec {
+        justify-content: space-around;
+        padding-bottom: 40px;
+    }
+
+    #intro,
+    #image_cont {
+        height: 400px;
+        width: 47vw;
+    }
+
+    #hero {
+        max-height: 400px;
+    }
 }
 
 /* Media query: Desktop monitors (1920px and up) */
@@ -437,8 +486,6 @@ input[type=text] {
     #intro_div, #calander_sec, #events_sec, #games_sec {
         display: flex;
         flex-direction: row;
-        
-
     }
     
     #intro,  #events,
