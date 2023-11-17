@@ -467,7 +467,7 @@ input[type=text] {
 
     #intro,
     #image_cont {
-        height: 400px;
+        height: 600px;
         width: 47vw;
     }
 
@@ -492,7 +492,6 @@ input[type=text] {
      #cal_info, #games_par  {
         font-size: 150%;
         padding-left: 10px
-
     }
     
 
