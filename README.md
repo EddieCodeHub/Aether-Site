@@ -2,7 +2,6 @@
 
 ![image of website responsiveness](assets/images/responsive_img.png)
 
-
 Aether Clan osrs is a website that is aimed at people who play the online MMORPG 'OldSchool Runecape', that are looking to join a 'clan'. Clans are a social aspect to the online experience of this game and tbe site advertises 'Aether clan' in order to be found by this audience. It shall advertise what the clan has to offer to the user. The site will do this mainly through displaying upcoming/past in-game events in the 'events' page. The site will also provide links to the clans social media pages if they would like more information, and also a link to the clans disboard page, so that the user can join the clan if they would like to. The user will also be provided with a signup page so that they can sign up to the clan, without leaving the site.
 
 ## Table of Contents
@@ -18,9 +17,9 @@ Aether Clan osrs is a website that is aimed at people who play the online MMORPG
     - [Events Page](#events-page)
     - [Join Us page](#join-us-page)
   - [Testing](#testing)
-      - [Home Page](#home-page-1)
-      - [Events Page](#events-page-1)
-      - [Signup Page](#signup-page)
+    - [Home Page](#home-page-1)
+    - [Events Page](#events-page-1)
+    - [Signup Page](#signup-page)
   - [Bugs](#bugs)
   - [Validator Testing](#validator-testing)
     - [HTML](#html)
@@ -107,7 +106,7 @@ Aether Clan osrs is a website that is aimed at people who play the online MMORPG
 
 ## Testing
 
-- I checked that the site is responive and looks good at standard screen sizes using devtools device toolbar.
+- I checked that the site is responsive and looks good at standard screen sizes using devtools device toolbar.
 
 - I have confirmed that all the text is easy to read and understand.
   
@@ -115,15 +114,15 @@ Aether Clan osrs is a website that is aimed at people who play the online MMORPG
 
 - I have checked that the form works correctly.
   
-#### Home Page
+### Home Page
 
 ![image of home page lighthouse test](assets/images/home_test_img.png)
 
-#### Events Page 
+### Events Page
 
 ![image of events page lighthouse test](assets/images/events_test_img.png)
 
-#### Signup Page
+### Signup Page
 
 ![image of signup page lighthouse test](assets/images/signup_test_img.png)
 
@@ -147,7 +146,7 @@ Aether Clan osrs is a website that is aimed at people who play the online MMORPG
 - The errors were a few trailing slashes in my code, and the other being a missing header on my home page.
 - I fixed these issues by removing the trailing slashes and adding a hidden header to my home page.
   
-### CSS 
+### CSS
 
 - No errors were found when passing throught the official (jigsaw) validator.
 
